@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        div{
+            position: absolute;
+            background: palegoldenrod;
+            
+        }
+        .one{
+            z-index: 4;
+            background-color: red;
+            position: absolute;
+        }
+        .two{
+            z-index: 3;
+            background: green;
+            position: absolute;
+        }
+        .red{
+            width: 200px;
+            height: 200px;
+            background: red;
+            z-index: 5;
+        }
+        .blue{
+            width: 200px;
+            height: 200px;
+            background: blue;
+            z-index: 4;
+        }
+        .yellow{
+            width: 200px;
+            height: 200px;
+            background: yellow;
+            z-index: 6;
+        }
+    </style>
+</head>
+<body>
+    <div class="one">platzi</div>
+    <div class="two">master</div>
+    <section>
+        <div class="red">red</div>
+        <div class="blue">blue 
+            <div class="yellow">yellow</div>
+        </div>
+    </section>
+</body>
+</html>
